@@ -1,3 +1,3 @@
 source 'https://supermarket.chef.io'
 metadata
-cookbook 'postgresql', '~> 8.3.0'
+cookbook 'postgresql', '~> 10.0.0'

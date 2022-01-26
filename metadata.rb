@@ -4,8 +4,8 @@ maintainer_email 'r-goto@example.com'
 license 'All Rights Reserved'
 description 'Installs/Configures postgresql_setup'
 version '1.0.0'
-chef_version '>= 16.0'
-depends 'postgresql', '~> 8.3.0'
+chef_version '>= 17.0'
+depends 'postgresql', '~> 10.0.0'
 
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
