@@ -19,7 +19,9 @@ kitchen.local.yml
 # Chef Infra
 Berksfile.lock
 .zero-knife.rb
-Policyfile.lock.json
+policyfile.lock.json
+.chef/r-goto.pem
 
 .idea/
-.DS_Store
+.delivery
+.vscode

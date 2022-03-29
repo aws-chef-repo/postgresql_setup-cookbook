@@ -4,6 +4,8 @@
 #
 # Copyright:: 2021, The Authors, All Rights Reserved.
 
+include_profile 'postgresql_setup::validation_tests'
+
 postgresql_server_install 'My PostgreSQL Server install' do
   action [ :install, :create ]
   version '12'
