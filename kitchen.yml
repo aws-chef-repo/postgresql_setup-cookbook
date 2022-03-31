@@ -19,6 +19,8 @@ verifier:
 
 platforms:
   - name: rhel-8
+    driver:
+      tags: { "Name": "postgresql_setup-TestKitchen" }
 
 suites:
   - name: default
@@ -28,6 +30,6 @@ suites:
       inspec_tests:
         - compliance/profiles/validation_tests
     attributes: { 
-     audit: { reporter: 'audit-enforcer' },
+     audit: { reporter: 'cli' },
       environment: "production"
      }
